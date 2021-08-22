@@ -300,6 +300,7 @@ footer > .logo {
     visibility: visible;
     position: static;
     background-color: transparent;
+    box-shadow: none;
   }
   .dropdown {
     width: 150px;
