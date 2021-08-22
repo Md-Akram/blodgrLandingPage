@@ -3,8 +3,7 @@ var menuBtn = document.querySelector('.hamburger')
 var navBar = document.querySelector('.navbar')
 
 menuBtn.addEventListener('click', (e) => {
-  var Src = menuBtn.src
-  if (Src === 'http://127.0.0.1:5500/images/icon-hamburger.svg') {
+  if (menuBtn.attributes.src.value === 'images/icon-hamburger.svg') {
     menuBtn.src = 'images/icon-close.svg'
   } else {
     menuBtn.src = 'images/icon-hamburger.svg'
@@ -12,6 +11,7 @@ menuBtn.addEventListener('click', (e) => {
 
   navBar.classList.toggle('expand')
 })
+
 
 dropbtn.forEach((btn) => {
   btn.addEventListener('click', (e) => {
