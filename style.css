@@ -137,14 +137,14 @@ header {
   text-transform: initial;
   text-align: center;
   font-family: 'Overpass', sans-serif;
-  margin: 200px 0 200px 0;
+  margin: 10vh 0;
 }
 .header-bottom > h1 {
   font-weight: 600;
   padding: 20px 0 10px 0;
 }
 .header-bottom > p {
-  padding: 10px 0 20px 0;
+  padding: 10px 0 10px 0;
 }
 .cta {
   margin: 40px 0;
